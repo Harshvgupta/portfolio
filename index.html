@@ -524,7 +524,24 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				});
 			</script>
 			
+			<script >
+			document.addEventListener('DOMContentLoaded', function() {
+				function adjustImageSizes() {
+					var images = document.querySelectorAll('.work-image img');
+					images.forEach(function(img) {
+						if (img.offsetHeight > img.parentElement.offsetHeight) {
+							img.style.height = '100%';
+							img.style.width = 'auto';
+						}
+					});
+				}
 			
+				// Run on load
+				adjustImageSizes();
+			
+				// Run on window resize
+				window.addEventListener('resize', adjustImageSizes);
+			});</script>
 			
 
 	</body>

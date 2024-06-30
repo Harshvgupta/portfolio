@@ -1709,9 +1709,9 @@ input, select, textarea {
 }
 
 .work-image {
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio */
     position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     overflow: hidden;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -1729,6 +1729,13 @@ input, select, textarea {
 
 .project h3 {
     margin-top: 0;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 736px) {
+    .work-image {
+        padding-bottom: 75%; /* 4:3 Aspect Ratio for smaller screens */
+    }
 }
 
 .about-image {
