@@ -36,6 +36,7 @@
 							<ul>
 								<li><a href="#intro">Intro</a></li>
 								<li><a href="#work">Work</a></li>
+								<li><a href="#project">Project</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -63,7 +64,7 @@
 
 						<!-- Work -->
 						<article id="work">
-							<h2 class="major">Projects</h2>
+							<h2 class="major">Experience</h2>
 							
 							<!-- Project Summary with Modal Link -->
 							<div class="project">
@@ -134,29 +135,158 @@
 								<p>- Implemented data virtualization solutions using Denodo, enabling efficient data integration and reducing access time by 35%.</p>
 							</div>
 						</div>
-						<!-- Project 4 -->
-						<div class="project">
-							<span class="work-image"><img src="images/e-com.jpg" alt="E-Commerce Analytics Project" /></span>
-							<h3>Real-Time Data Pipeline for E-Commerce Analytics</h3>
-							<p>
-								Developed and managed a high-throughput data ingestion system using Apache Kafka, handling over 1 million transactions per day to facilitate real-time analytics for e-commerce platforms.
-								<a href="#" class="open-modal" data-modal="myModal4">Read more</a>
-							</p>
-						</div>
-
-						<!-- Modal for Project 4 -->
-						<div id="myModal4" class="modal">
-							<div class="modal-content">
-								<span class="close">&times;</span>
-								<h3>Real-Time Data Pipeline for E-Commerce Analytics</h3>
-								<p>• Developed and managed a high-throughput data ingestion system using Apache Kafka, handling over 1 million transactions per day to facilitate real-time analytics.</p>
-								<p>• Engineered data storage solutions, incorporating Amazon S3 and Amazon Redshift to efficiently manage over 10 terabytes of raw and processed data.</p>
-								<p>• Executed daily batch and real-time data processing using Apache Spark and AWS Glue, improving data quality and readiness for analytics by 30%.</p>
-								<p>• Designed and deployed interactive dashboards using Tableau and Amazon QuickSight, enhancing business decision-making by providing insights into customer behavior and sales performance.</p>
-								<p>• Automated and monitored ETL workflows with Apache Airflow and Prometheus, reducing manual oversight requirements by 40% and improving data processing uptime to 99.9%.</p>
-							</div>
-						</div>
 					</article>
+
+					<!-- Project -->
+					<article id="project">
+						<h2 class="major">Project</h2>
+					<!-- Project 1 -->
+					<div class="project">
+						<span class="work-image"><img src="images/carla.jpg" alt="Self-Driving Car Project" /></span>
+						<h3>Autonomous Driving Simulation and Control</h3>
+						<p>
+							Engineered a Carla-based simulation environment for autonomous driving, incorporating urban scenarios and dynamic obstacles.
+							<a href="#" class="open-modal" data-modal="myModalSelfDriving">Read more</a>
+						</p>
+					</div>
+					
+					<!-- Modal for Self-Driving Car Project -->
+					<div id="myModalSelfDriving" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<h3>Autonomous Driving Simulation and Control</h3>
+							<p>• Engineered a Carla-based simulation environment for autonomous driving, incorporating urban scenarios and dynamic obstacles.</p>
+							<p>• Developed computer vision (CV) algorithms for real-time lane detection and object recognition, providing input for the RL policy.</p>
+							<p>• Implemented PPO, DDPG algorithms, integrating CV data into state space, reward function for robust continuous control.</p>
+							<p>• Designed an adaptive reward structure leveraging CV data, achieving over 80% accuracy in lane following and obstacle avoidance.</p>
+							<p>• Optimized model through hyperparameter tuning and entropy regularization, improving learning stability by 35%.</p>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="project">
+						<span class="work-image"><img src="images/3d.png" alt="3D Scene Analysis with Object Detection" /></span>
+						<h3>3D Scene Analysis with Object Detection</h3>
+						<p>
+							Developed a 3D scene reconstruction pipeline using SfM techniques, achieving 30% improved accuracy.
+							<a href="#" class="open-modal" data-modal="myModal3DScene">Read more</a>
+						</p>
+					</div>
+					
+					<div id="myModal3DScene" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<h3>3D Scene Analysis with Object Detection</h3>
+							<p>• Developed a 3D scene reconstruction pipeline using SfM techniques, achieving 30% improved accuracy.</p>
+							<p>• Coded in Python with PyTorch and OpenCV; set up CI/CD pipeline using GitHub Actions for automated testing.</p>
+							<p>• Utilized PointNet++ for 3D object classification in reconstructed scenes, achieving 87% accuracy.</p>
+						</div>
+					</div>
+					<!-- Project 3  -->
+					<div class="project">
+						<span class="work-image"><img src="images/tracking.png" alt="Real-Time Object Tracking on Edge" /></span>
+						<h3>Real-Time Object Tracking on Edge</h3>
+						<p>
+							Developed and trained a custom YOLO-based model on 100K+ images, enabling real-time object tracking with AWS IoT Edge.
+							<a href="#" class="open-modal" data-modal="myModalObjectTracking">Read more</a>
+						</p>
+					</div>
+					
+					<div id="myModalObjectTracking" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<h3>Real-Time Object Tracking on Edge</h3>
+							<p>• Developed and trained a custom YOLO-based model on 100K+ images, leveraging advanced data augmentation and hyperparameter tuning to address challenging conditions.</p>
+							<p>• Deployed the optimized model to AWS IoT Edge, enabling real-time object tracking with minimal latency across embedded devices.</p>
+							<p>• Achieved a 95% mean Average Precision (mAP) in production by integrating an automated monitoring pipeline, ensuring consistent performance under real-world streaming conditions.</p>
+						</div>
+					</div>
+					<!-- Project 4 -->
+					<div class="project">
+						<span class="work-image"><img src="images/creditcard.webp" alt="Credit Card Fraud Detection System" /></span>
+						<h3>Credit Card Fraud Detection System</h3>
+						<p>
+							Built an end-to-end machine learning pipeline for credit card fraud detection, achieving 88% accuracy through advanced ML techniques.
+							<a href="#" class="open-modal" data-modal="myModalFraudDetection">Read more</a>
+						</p>
+					</div>
+					
+					<div id="myModalFraudDetection" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<h3>Credit Card Fraud Detection System</h3>
+							<p>• Built an end-to-end machine learning pipeline using Python, TensorFlow, and Scikit-learn, developing a credit card fraud detection model with exploratory data analysis (EDA) and version control using Git.</p>
+							<p>• Implemented data preprocessing and feature engineering using Pandas, NumPy, and SQL queries, creating custom transformers and applying statistical analysis to handle imbalanced datasets using SMOTE.</p>
+							<p>• Developed deep learning models using PyTorch and neural networks, comparing performance against traditional ML algorithms, achieving 88% accuracy through cross-validation and hyperparameter tuning.</p>
+							<p>• Containerized the ML application using Docker, deployed on AWS EC2, and created RESTful API endpoints using FastAPI for real-time predictions.</p>
+							<p>• Established ML pipeline monitoring using basic MLflow tracking, documented code with unit tests, and collaborated with team members using Agile practices in bi-weekly sprints.</p>
+						</div>
+					</div>
+					<!-- Project 5 -->
+					<div class="project">
+						<span class="work-image"><img src="images/todo.webp" alt="To-Do App" /></span>
+						<h3>To-Do App</h3>
+						<p>
+							Developed a full-stack React Native to-do app with a GraphQL backend, showcasing expertise in mobile app development.
+							<a href="#" class="open-modal" data-modal="myModalToDo">Read more</a>
+						</p>
+					</div>
+					
+					<div id="myModalToDo" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<h3>To-Do App</h3>
+							<p>• Developed a full-stack React Native to-do app with a GraphQL backend, showcasing expertise in mobile app development and modern API integration.</p>
+							<p>• Implemented secure user authentication using Auth0, integrated with Hasura GraphQL Engine, ensuring robust user management and access control.</p>
+							<p>• Leveraged Apollo Client to manage state and data flow efficiently, utilizing Query and Mutation components for optimized real-time server communication.</p>
+							<p>• Designed and implemented a GraphQL schema with Hasura, defining table relationships and permissions to demonstrate advanced database modeling skills.</p>
+							<p>• Built a responsive UI using React Native, enabling real-time updates and offline capabilities, enhancing the app’s user experience and front-end performance.</p>
+						</div>
+					</div>
+					<!-- Project 6 -->
+					<div class="project">
+						<span class="work-image"><img src="images/admm.png" alt="ADMM: Advanced Optimization for AI and Robotics" /></span>
+						<h3>ADMM: Advanced Optimization for AI and Robotics</h3>
+						<p>
+							Implemented advanced ADMM algorithms for non-linear optimization in robotics, boosting solution accuracy and efficiency.
+							<a href="#" class="open-modal" data-modal="myModalADMM">Read more</a>
+						</p>
+					</div>
+					
+					<div id="myModalADMM" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<h3>ADMM: Advanced Optimization for AI and Robotics</h3>
+							<p>• Implemented advanced ADMM algorithms for non-linear optimization in robotics, solving complex problems like arm pose optimization and enhancing solution accuracy by 25%.</p>
+							<p>• Engineered a PyTorch-based ADMM framework for non-linear Lie group optimization, improving robot kinematic calculations and trajectory planning efficiency by 30%.</p>
+							<p>• Developed a novel Total Variation-based image denoising solution using ADMM, boosting PSNR and SSIM metrics by 40% for enhanced robot vision systems.</p>
+							<p>• Designed a versatile optimization scheduler for ADMM iterations, reducing convergence time by 35% across various non-linear robotic applications.</p>
+							<p>• Contributed ADMM-based non-linear optimization techniques to the open-source PyPose library, facilitating advancements in robotic perception and control systems.</p>
+						</div>
+					</div>
+					
+					<!-- Project 7 -->
+					<div class="project">
+						<span class="work-image"><img src="images/e-com.jpg" alt="E-Commerce Analytics Project" /></span>
+						<h3>Real-Time Data Pipeline for E-Commerce Analytics</h3>
+						<p>
+							Developed and managed a high-throughput data ingestion system using Apache Kafka, handling over 1 million transactions per day to facilitate real-time analytics for e-commerce platforms.
+							<a href="#" class="open-modal" data-modal="myModal5">Read more</a>
+						</p>
+					</div>
+
+					<!-- Modal for Project 2 -->
+					<div id="myModal5" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<h3>Real-Time Data Pipeline for E-Commerce Analytics</h3>
+							<p>• Developed and managed a high-throughput data ingestion system using Apache Kafka, handling over 1 million transactions per day to facilitate real-time analytics.</p>
+							<p>• Engineered data storage solutions, incorporating Amazon S3 and Amazon Redshift to efficiently manage over 10 terabytes of raw and processed data.</p>
+							<p>• Executed daily batch and real-time data processing using Apache Spark and AWS Glue, improving data quality and readiness for analytics by 30%.</p>
+							<p>• Designed and deployed interactive dashboards using Tableau and Amazon QuickSight, enhancing business decision-making by providing insights into customer behavior and sales performance.</p>
+							<p>• Automated and monitored ETL workflows with Apache Airflow and Prometheus, reducing manual oversight requirements by 40% and improving data processing uptime to 99.9%.</p>
+						</div>
+					</div>
+				</article>
 
 						<!-- About -->
 							<!-- <article id="about">

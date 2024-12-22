@@ -1699,6 +1699,36 @@ input, select, textarea {
     text-decoration: none;
     cursor: pointer;
 }
+/* .project {
+    background-color: rgba(27, 31, 34, 0.85);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.work-image {
+    width: 100%;
+    padding-top: 56.25%; 
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.work-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.project h3 {
+    margin-top: 0;
+} */
 .project {
     background-color: rgba(27, 31, 34, 0.85);
     border-radius: 4px;
